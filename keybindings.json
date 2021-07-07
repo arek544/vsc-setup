@@ -1,0 +1,109 @@
+[
+    // ################## DEBUGER ##########################
+    // Start debuger
+    {
+        "key": "f6",
+        "command": "workbench.action.debug.start"
+    },
+    // Continue debugging
+    {
+        "key": "f6",
+        "command": "-workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    // Shift + Enter to evaluate selection in debug console 
+    {
+        "key": "shift+enter",
+        "command": "editor.debug.action.selectionToRepl",
+        "when": "inDebugMode"
+    },
+    // ################ FOLDERS ##########################
+    // Open folder
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.files.openFolder"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openFolder"
+    },
+    // ################ INTERACTIVE WINDOW ###############
+    // Run current file in interactive window
+    {
+        "key": "ctrl+f5",
+        "command": "jupyter.runFileInteractive"
+    },
+    // Run current cell
+    {
+        "key": "shift+enter",
+        "command": "jupyter.runcurrentcell",
+        "when": "editorTextFocus && jupyter.hascodecells && !editorHasSelection && !notebookEditorFocused"
+    },
+    // Run selection in interactive cell
+    {
+        "key": "shift+enter",
+        "command": "jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && !notebookEditorFocused && !inDebugMode && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python' && !inDebugMode"
+    },
+    // #################### NOTEBOOK ####################
+    // Delete cell
+    {
+        "key": "d d",
+        "command": "notebook.cell.delete",
+        "when": "notebookEditorFocused && !inputFocus && notebookViewType == 'jupyter-notebook'"
+    },
+    // ################# TERMINAL ####################
+    // Run .py file in terminal
+    {
+        "key": "f5",
+        "command": "python.execInTerminal",
+        "when": "editorLangId == 'python'"
+    },
+    // Switch between terminals
+    {
+        "key": "alt+down",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    // Open new terminal
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "terminalFocus"
+    },
+    // Close terminal
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    // Split terminal
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    // ###################### SQL ##########################
+    // Run SQL query (Postgres extension)
+    {
+        "key": "f5",
+        "command": "-vscode-postgres.runQuery",
+        "when": "editorLangId == 'postgres'"
+    },
+    // Run selection in terminal
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.runSelectedText",
+        "when": "editorTextFocus && !notebookEditorFocused && !inDebugMode && editorLangId == 'sql'"
+    },
+]
