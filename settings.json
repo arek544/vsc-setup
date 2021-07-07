@@ -36,6 +36,8 @@
 
     // Linting and formatting
     "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.analysis.completeFunctionParens": true,
     "[python]": {
