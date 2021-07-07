@@ -1,0 +1,97 @@
+{
+    // Jupyter and interactive window
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.interactiveWindowMode": "perFile",
+    "jupyter.askForKernelRestart": false,
+    "jupyter.runStartupCommands": [
+        "%load_ext autoreload", "%autoreload 2"
+    ],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "workbench.colorCustomizations": {
+        "notebook.cellEditorBackground": "#292828",
+        "notebook.outputContainerBackgroundColor": "#242121",
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.diff.ignoreMetadata": true,
+
+    // Terminal
+    // to set PYTHONPATH to project root while running in terminal
+    // required for jupyter notebook to import from workspace folder
+
+    // Linux
+    "terminal.integrated.env.linux": {"PYTHONPATH": "${workspaceFolder}"}, 
+    "terminal.integrated.defaultProfile.linux": "zsh",
+
+    // Windows
+    "terminal.integrated.env.windows": {"PYTHONPATH": "${workspaceFolder}"},
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    // Git
+    "git.confirmSync": false,
+
+    // Linting and formatting
+    "python.languageServer": "Pylance",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.analysis.completeFunctionParens": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "editor.suggestSelection": "first",
+    "python.autoComplete.addBrackets": true,
+    "ai-docstring.docstringFormat": "numpy",
+
+    // Files
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.list.smoothScrolling": true,
+    "files.watcherExclude": {
+        "**/venv/**": true
+    },
+
+    // Insider
+    "python.insidersChannel": "off",
+
+    // Remote
+    "remote.SSH.remotePlatform": {
+        "asycz": "linux"
+    },
+    "remote.SSH.useLocalServer": true,
+    "extensions.autoUpdate": false,
+    "jupyter.themeMatplotlibPlots": true,
+    "diffEditor.codeLens": true,
+    "editor.codeLens": true,
+
+    // Default path to Python
+    "python.defaultInterpreterPath": "venv/bin/python",
+    
+    // Default launch.json
+    // to set PYTHONPATH to project root while debuging
+    "launch": {
+        "configurations": [{
+                "name": "Python: Current File",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "env": {"PYTHONPATH": "${workspaceFolder}"}
+            }
+        ],
+        "compounds": []
+    },
+    // Zen mode
+    "zenMode.fullScreen": false,
+    "git.autofetch": "all",
+
+    // PDF preview config
+    "pdf-preview.default.sidebar": false,
+}
