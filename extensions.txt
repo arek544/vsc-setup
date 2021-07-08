@@ -1,5 +1,3 @@
-// code-insiders --list-extensions
-Extensions installed on SSH: asycz:
 ckolkman.vscode-postgres
 donjayamanne.githistory
 eamodio.gitlens
