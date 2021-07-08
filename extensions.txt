@@ -1,0 +1,17 @@
+// code-insiders --list-extensions
+Extensions installed on SSH: asycz:
+ckolkman.vscode-postgres
+donjayamanne.githistory
+eamodio.gitlens
+GitHub.vscode-pull-request-github
+graykode.ai-docstring
+hdg.live-html-previewer
+mhutchie.git-graph
+ms-azuretools.vscode-docker
+ms-ossdata.vscode-postgresql
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+tht13.html-preview-vscode
+tomoki1207.pdf
+VisualStudioExptTeam.vscodeintellicode
