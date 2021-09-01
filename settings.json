@@ -18,6 +18,7 @@
         "*.ipynb": "jupyter-notebook"
     },
     "notebook.diff.ignoreMetadata": true,
+    "jupyter.experimental.debugging": true,
 
     // Terminal
     // to set PYTHONPATH to project root while running in terminal
