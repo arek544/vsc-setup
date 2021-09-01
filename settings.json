@@ -47,6 +47,7 @@
     "editor.suggestSelection": "first",
     "python.autoComplete.addBrackets": true,
     "ai-docstring.docstringFormat": "numpy",
+    "diffEditor.ignoreTrimWhitespace": false,
 
     // Files
     "explorer.confirmDragAndDrop": false,
