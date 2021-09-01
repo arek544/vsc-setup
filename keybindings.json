@@ -94,11 +94,12 @@
         "when": "terminalFocus"
     },
     // ###################### SQL ##########################
-    // Run SQL query (Postgres extension)
+    // Run query (Postgres extension)
+    // https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql
     {
         "key": "f5",
         "command": "-vscode-postgres.runQuery",
-        "when": "editorLangId == 'postgres'"
+        "when": "editorLangId == 'Postgres'"
     },
     // Run selection in terminal
     {
