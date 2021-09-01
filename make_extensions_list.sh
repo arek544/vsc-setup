@@ -1,0 +1,1 @@
+code --list-extensions | tail -n +2
