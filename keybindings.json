@@ -105,5 +105,5 @@
         "key": "shift+enter",
         "command": "workbench.action.terminal.runSelectedText",
         "when": "editorTextFocus && !notebookEditorFocused && !inDebugMode && editorLangId == 'sql'"
-    },
+    }
 ]
