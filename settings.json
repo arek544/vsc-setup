@@ -96,4 +96,9 @@
 
     // PDF preview config
     "pdf-preview.default.sidebar": false,
+ 
+    // Alow comments in JSON
+    "files.associations": {
+        "*.json": "jsonc"
+    }
 }
