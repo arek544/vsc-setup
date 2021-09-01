@@ -6,7 +6,7 @@
 
 ## Install extensions
 
-1. Run script:
+Run script:
 
 ```bash
 source install_extensions.sh
@@ -20,7 +20,7 @@ source install_extensions.sh
 ### Folders
 - Open folder (customized): `Ctrl` + `Shift` + `O`
 
-### Debug #debug
+### Debug
 
 - Debug (customized): `F6`
 
@@ -44,13 +44,13 @@ source install_extensions.sh
 ## Tabs
 Close tab: `Ctrl` + `W`
 
-1.  File Explorer: `Ctrl` `Shift` `E`
-2.  Search: `Ctrl` `Shift` `F`
-3.  Source Control: `Ctrl` `Shift` `G`
-4.  Debug: `Ctrl` `Shift` `D`
-5.  Extensions: `Ctrl` `Shift` `X`
+1.  File Explorer: `Ctrl` + `Shift` + `E`
+2.  Search: `Ctrl` + `Shift` + `F`
+3.  Source Control: `Ctrl` + `Shift` + `G`
+4.  Debug: `Ctrl` + `Shift` + `D`
+5.  Extensions: `Ctrl` + `Shift` + `X`
     
-To toggle the visibility of the sidebar, just press `Ctrl` `B`
+To toggle the visibility of the sidebar, just press `Ctrl` + `B`
 
 ## Interactive window
 Run selected code in interactive window (customized): `Shift` + `Enter`
