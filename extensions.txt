@@ -8,12 +8,10 @@ hdg.live-html-previewer
 janisdd.vscode-edit-csv
 mhutchie.git-graph
 ms-azuretools.vscode-docker
-ms-ossdata.vscode-postgresql
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 tht13.html-preview-vscode
 tomoki1207.pdf
-VisualStudioExptTeam.vscodeintellicode
 zh9528.file-size
