@@ -38,7 +38,7 @@
     "git.autofetch": "all",
     "diffEditor.ignoreTrimWhitespace": false,
 
-    // Linting and formatting
+    // Editor (linting and formatting)
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
