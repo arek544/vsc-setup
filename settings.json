@@ -73,7 +73,9 @@
     
     // Remote
     "remote.SSH.remotePlatform": {
-        "asycz": "linux"
+        "asycz": "linux",
+        "jkuk": "linux",
+        "server_DELL": "windows"
     },
     "remote.SSH.useLocalServer": true,
     "extensions.autoUpdate": false,
