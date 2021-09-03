@@ -31,7 +31,7 @@
 
     // Windows
     "terminal.integrated.env.windows": {"PYTHONPATH": "${workspaceFolder}"},
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
 
     // Git
     "git.confirmSync": false,
