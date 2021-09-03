@@ -50,7 +50,8 @@
     "editor.suggestSelection": "first",
     "python.autoComplete.addBrackets": true,
     "ai-docstring.docstringFormat": "numpy",
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.codeLens": true,
+    "editor.codeLens": true,
 
     // Files
     "explorer.confirmDragAndDrop": false,
