@@ -117,5 +117,12 @@
         "key": "f5",
         "command": "-debug.openView",
         "when": "!debuggersAvailable"
+    },
+
+    // #################### Markdown editor #########################
+    {
+        "key": "shift+enter",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown' && !notebookEditorFocused"
     }
 ]
