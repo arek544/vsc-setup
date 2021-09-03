@@ -19,6 +19,7 @@
     },
     "notebook.diff.ignoreMetadata": true,
     "jupyter.experimental.debugging": true,
+    "jupyter.themeMatplotlibPlots": true,
 
     // Terminal
     // to set PYTHONPATH to project root while running in terminal
