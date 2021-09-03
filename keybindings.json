@@ -101,10 +101,21 @@
         "command": "vscode-postgres.runQuery",
         "when": "editorLangId == 'postgres' || editorLangId == 'sql'"
     },
-    // Run selection in terminal
+
+    // Turn off default keybindings
     {
-        "key": "shift+enter",
-        "command": "workbench.action.terminal.runSelectedText",
-        "when": "editorTextFocus && !notebookEditorFocused && !inDebugMode && editorLangId == 'sql'"
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f5",
+        "command": "-debug.openView",
+        "when": "!debuggersAvailable"
     }
 ]
