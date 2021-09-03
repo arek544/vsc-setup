@@ -53,6 +53,11 @@
     "diffEditor.codeLens": true,
     "editor.codeLens": true,
 
+    // Python
+    "python.pythonPath": "C:\\Users\\arek5\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\arek5\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.insidersChannel": "daily",
+
     // Files
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
@@ -65,10 +70,7 @@
     "files.watcherExclude": {
         "**/venv/**": true
     },
-
-    // Insider
-    "python.insidersChannel": "off",
-
+    
     // Remote
     "remote.SSH.remotePlatform": {
         "asycz": "linux"
