@@ -35,6 +35,7 @@
 
     // Git
     "git.confirmSync": false,
+    "git.autofetch": "all",
 
     // Linting and formatting
     "python.languageServer": "Pylance",
