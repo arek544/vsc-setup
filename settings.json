@@ -12,7 +12,7 @@
     },
     "workbench.colorCustomizations": {
         "notebook.cellEditorBackground": "#292828",
-        "notebook.outputContainerBackgroundColor": "#242121",
+        "notebook.outputContainerBackgroundColor": "#242121"
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
