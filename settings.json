@@ -110,5 +110,6 @@
     // Alow comments in JSON
     "files.associations": {
         "*.json": "jsonc"
-    }
+    // Extensions
+    "extensions.autoUpdate": false
 }
