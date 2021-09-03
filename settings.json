@@ -78,14 +78,6 @@
         "server_DELL": "windows"
     },
     "remote.SSH.useLocalServer": true,
-    "extensions.autoUpdate": false,
-    "jupyter.themeMatplotlibPlots": true,
-    "diffEditor.codeLens": true,
-    "editor.codeLens": true,
-
-    // Default path to Python
-    "python.defaultInterpreterPath": "venv/bin/python",
-    
     // Default launch.json
     // to set PYTHONPATH to project root while debuging
     "launch": {
@@ -100,16 +92,18 @@
         ],
         "compounds": []
     },
+
     // Zen mode
     "zenMode.fullScreen": false,
-    "git.autofetch": "all",
 
     // PDF preview config
     "pdf-preview.default.sidebar": false,
- 
+
     // Alow comments in JSON
     "files.associations": {
         "*.json": "jsonc"
+    },
+
     // Extensions
     "extensions.autoUpdate": false
 }
