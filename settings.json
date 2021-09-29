@@ -19,7 +19,6 @@
     },
     "notebook.diff.ignoreMetadata": true,
     "jupyter.experimental.debugging": true,
-    "jupyter.themeMatplotlibPlots": true,
 
     // Terminal
     // to set PYTHONPATH to project root while running in terminal
@@ -37,8 +36,12 @@
     "git.confirmSync": false,
     "git.autofetch": "all",
     "diffEditor.ignoreTrimWhitespace": false,
-
-    // Editor (linting and formatting)
+    // Show hidden .git dir
+    "files.exclude": {
+        "**/.git": false
+    },
+    
+    // Linting and formatting
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
@@ -50,13 +53,10 @@
     "editor.suggestSelection": "first",
     "python.autoComplete.addBrackets": true,
     "ai-docstring.docstringFormat": "numpy",
-    "diffEditor.codeLens": true,
-    "editor.codeLens": true,
 
     // Python
     "python.pythonPath": "C:\\Users\\arek5\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
     "python.defaultInterpreterPath": "C:\\Users\\arek5\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
-    "python.insidersChannel": "daily",
 
     // Files
     "explorer.confirmDragAndDrop": false,
@@ -67,17 +67,11 @@
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": true,
     "workbench.list.smoothScrolling": true,
+    "python.insidersChannel": "daily",
     "files.watcherExclude": {
         "**/venv/**": true
     },
     
-    // Remote
-    "remote.SSH.remotePlatform": {
-        "asycz": "linux",
-        "jkuk": "linux",
-        "server_DELL": "windows"
-    },
-    "remote.SSH.useLocalServer": true,
     // Default launch.json
     // to set PYTHONPATH to project root while debuging
     "launch": {
