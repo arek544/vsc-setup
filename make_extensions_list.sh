@@ -1,1 +1,1 @@
-code --list-extensions | tail -n +2
+code --list-extensions | tail -n +2 > extensions.txt
