@@ -21,3 +21,13 @@ source install_extensions.sh
 - [GitLens](https://github.com/eamodio/vscode-gitlens)
 - [Docker](https://github.com/microsoft/vscode-docker)
 - [Jupyter](https://github.com/Microsoft/vscode-jupyter) 
+- [SQL Notebook](https://github.com/cmoog/vscode-sql-notebook)
+
+## Usefull tricks
+- [Refactoring actions](https://code.visualstudio.com/docs/editor/refactoring#_refactoring-actions)
+- [Creating issues](https://code.visualstudio.com/docs/editor/github#_issues)
+- [Settings sync](https://code.visualstudio.com/docs/editor/settings-sync)
+- [Extension categories](https://code.visualstudio.com/docs/editor/extension-marketplace#_categories-and-tags)
+
+---
+More: https://code.visualstudio.com/docs/setup/setup-overview
