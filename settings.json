@@ -53,6 +53,7 @@
     "editor.suggestSelection": "first",
     "python.autoComplete.addBrackets": true,
     "ai-docstring.docstringFormat": "numpy",
+    "editor.formatOnSave": true,
 
     // Python
     "python.pythonPath": "C:\\Users\\arek5\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
