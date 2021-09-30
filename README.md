@@ -12,45 +12,12 @@ Run script:
 source install_extensions.sh
 ```
 ## Shortcut guide
+- [Keyboard_shortcuts_cheatsheet.md](./Keyboard_shortcuts_cheatsheet.md)
 
-### Console
-- Open console: `Ctrl` + `~` OR `Ctrl` + `J`
-- Run script in terminal (customized): `F5`
-
-### Folders
-- Open folder (customized): `Ctrl` + `Shift` + `O`
-
-### Debug
-
-- Debug (customized): `F6`
-
-### Prompt
-- open: `F1` or `Ctrl` + `Shift` + `P`
-- show recent folders: `Ctrl` + `R`
-
-### Editor
-- Select whole line: `Ctrl` + `L`
-- Suggest (IntelliSense): `Ctrl` + `Space`
-- Multicoursor: `Alt` + Mouse click
-- Go to definition: `Ctrl` + Mouse click
-- Show definition in frame: `Alt` + `F12`
-- Auto-format: `Shift` + `ALt` + `F`
-- Rename variable: `F2`
-
-## VSC customization
-- ZenMode: `Ctrl` + `K` then `Z`
-- Open VSC command line: `F1`
-
-## Tabs
-Close tab: `Ctrl` + `W`
-
-1.  File Explorer: `Ctrl` + `Shift` + `E`
-2.  Search: `Ctrl` + `Shift` + `F`
-3.  Source Control: `Ctrl` + `Shift` + `G`
-4.  Debug: `Ctrl` + `Shift` + `D`
-5.  Extensions: `Ctrl` + `Shift` + `X`
-    
-To toggle the visibility of the sidebar, just press `Ctrl` + `B`
-
-## Interactive window
-Run selected code in interactive window (customized): `Shift` + `Enter`
+## The most interesting extensions
+- [Docs View](https://github.com/mattbierner/vscode-docs-view)
+- [AI Docstring Generator](https://github.com/graykode/ai-docstring)
+- [Git Graph](https://github.com/mhutchie/vscode-git-graph)
+- [GitLens](https://github.com/eamodio/vscode-gitlens)
+- [Docker](https://github.com/microsoft/vscode-docker)
+- [Jupyter](https://github.com/Microsoft/vscode-jupyter) 
