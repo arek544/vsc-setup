@@ -1,4 +1,5 @@
 ckolkman.vscode-postgres
+cmoog.sqlnotebook
 donjayamanne.githistory
 eamodio.gitlens
 GitHub.vscode-pull-request-github
